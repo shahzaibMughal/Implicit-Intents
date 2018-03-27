@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="com.example.shahzaib.implicitintent.MainActivity">
+
+
+    <Button
+        android:id="@+id/launchMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:onClick="onButtonClick"
+        android:text="Launch Map" />
+
+    <Button
+        android:id="@+id/openMarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Open Market" />
+
+    <Button
+        android:id="@+id/sendEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Send Email" />
+
+    <Button
+        android:id="@+id/setAlaram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Set Alaram" />
+
+    <Button
+        android:id="@+id/captureImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Capture Image" />
+
+    <Button
+        android:id="@+id/insertContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Insert Contact" />
+
+    <Button
+        android:id="@+id/dialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Dial Number" />
+
+    <Button
+        android:id="@+id/placeCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Place Call" />
+
+    <Button
+        android:id="@+id/launchBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Launch Browser" />
+
+  <Button
+        android:id="@+id/composeSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Compose SMS" />
+
+</LinearLayout>
